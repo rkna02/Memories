@@ -5,10 +5,10 @@ import memories from './images/memories.png';
 
 const App = () => {
   return (
-    <Container maxidth="lg">
+    <Container maxWidth="lg">
       <AppBar position="static" color="inherit">
         <Typography variant="h2" align="center">Memories</Typography>
-        <img src={memories} alt="memories" heigth="60" />
+        <img src={memories} alt="memories" height="60" />
       </AppBar>
     </Container>
   );
